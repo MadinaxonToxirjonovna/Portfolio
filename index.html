@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#hero" class="logo">M<span>M</span></a>
+
+        <div class="nav_links">
+            <a href="#hero" class="nav_link">Bosh sahifa</a>
+            <a href="#projects" class="nav_link">Loyihalar</a>
+            <a href="#about" class="nav_link">Men haqimda</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero_content">
+                <div class="hero_text">
+                    <h1 class="sarlavha">Madinaxon Maxmudova</h1>
+                    <h2>Frontend & Backend dasturchisi</h2>
+                    <p>
+                        Men Madinaxon Frontend va Backend dasturchisiman. Kelajakdagi maqsadim O'zbekistondagi eng zo'r dasturchi qiz bo'lish va O'zbekistoni butun dunyoga tanitish.
+                    </p>
+
+                    <div class="btn_group">
+                        <a href="#projects" class="btn btn_primary">
+                            <i class="fa-solid fa-rocket"></i> Loyihalar
+                        </a>
+                        <a href="https://t.me/MToxirjonovna" target="_blank" rel="noopener noreferrer" class="btn">
+                            <i class="fa-solid fa-paper-plane"></i> Bog'lanish
+                        </a>
+                    </div>
+                </div>
+
+                <div class="profile-container">
+                    <div class="profile-wrapper">
+                        <img src="./images/profile.jpg" alt="profile" class="profile_img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT / EDUCATION -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="timeline-tabs-container">
+                <h2 class="sarlavhaa">Men haqimda</h2>
+                <h3 class="text">Tahsil olgan joylarim</h3>
+
+                <div class="timeline-navigation">
+                    <div class="timeline-line">
+                        <div class="timeline-line-progress" id="timelineProgress"></div>
+                    </div>
+
+                    <div class="timeline-steps">
+                        <div class="timeline-step active" data-progress="0">
+                            <div class="timeline-step-circle">
+                                <img class="timeline-img" src="./images/NetPro.jpg" alt="netpro">
+                            </div>
+                            <div class="timeline-step-content">
+                                <h3 class="timeline-step-title">NetPro</h3>
+                            </div>
+                        </div>
+
+                        <div class="timeline-step" data-progress="33">
+                            <div class="timeline-step-circle">
+                                <img class="timeline-img" src="./images/Mars.jpg" alt="mars">
+                            </div>
+                            <div class="timeline-step-content">
+                                <h3 class="timeline-step-title">Mars IT School</h3>
+                            </div>
+                        </div>
+
+                        <div class="timeline-step" data-progress="66">
+                            <div class="timeline-step-circle">
+                                <img class="timeline-img" src="./images/Najot.jpg" alt="najot">
+                            </div>
+                            <div class="timeline-step-content">
+                                <h3 class="timeline-step-title">Najot Ta'lim</h3>
+                            </div>
+                        </div>
+
+                        <div class="timeline-step" data-progress="100">
+                            <div class="timeline-step-circle">
+                                <img class="timeline-img" src="./images/pdp.jpg" alt="pdp">
+                            </div>
+                            <div class="timeline-step-content">
+                                <h3 class="timeline-step-title">PDP University</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="text">Dasturlash tillari</h3>
+
+            <div class="skill__section">
+                <div class="skill">
+                    <label for="html">HTML</label>
+                    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-256.png" alt="html" />
+                    <input type="range" name="html" id="html" min="95" value="95" disabled />
+                    <span>95%</span>
+                </div>
+
+                <div class="skill">
+                    <label for="css">CSS</label>
+                    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png" alt="css" />
+                    <input type="range" name="css" id="css" min="90" value="90" disabled />
+                    <span>90%</span>
+                </div>
+
+                <div class="skill">
+                    <label for="JavaScript">JavaScript</label>
+                    <img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-256.png" alt="js" />
+                    <input type="range" name="JavaScript" id="JavaScript" min="90" value="90" disabled />
+                    <span>90%</span>
+                </div>
+
+                <div class="skill">
+                    <label for="python">Python</label>
+                    <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-256.png" alt="python" />
+                    <input type="range" name="python" id="python" min="85" value="85" disabled />
+                    <span>85%</span>
+                </div>
+
+                <div class="skill">
+                    <label for="django">Django</label>
+                    <img src="./images/django.png" alt="django" />
+                    <input type="range" name="django" id="django" min="80" value="80" disabled />
+                    <span>80%</span>
+                </div>
+
+                <div class="skill">
+                    <label for="github">GitHub</label>
+                    <img src="./images/github.png" alt="github" />
+                    <input type="range" name="github" id="github" min="80" value="80" disabled />
+                    <span>80%</span>
+                </div>
+
+                <div class="skill">
+                    <label for="postgresql">PostgreSQL</label>
+                    <img src="./images/postgresql.png" alt="postgresql" />
+                    <input type="range" name="postgresql" id="postgresql" min="80" value="80" disabled />
+                    <span>80%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+        <div class="head">
+            <h2 class="sarlavhaa">Loyihalar</h2>
+        </div>
+
+        <div class="slider">
+            <div class="track" id="track">
+
+                <article class="project-card" active>
+                    <img class="project-card__bg" src="./images/wb.jpg" alt="">
+                    <div class="project-card__content">
+                        <img class="project-card__thumb" src="https://4kwallpapers.com/images/wallpapers/coloros-16-stock-1290x2796-24282.jpg" alt="">
+                        <div>
+                            <h3 class="project-card__title">WB</h3>
+                            <p class="project-card__desc">Velosiped sotuvchi online do'kon</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img class="project-card__bg" src="https://media-cdn.oriflame.com/productImage?externalMediaId=product-management-media%2FProducts%2F47869%2F47869_7.png&MediaId=20127517&Version=2" alt="">
+                    <div class="project-card__content">
+                        <img class="project-card__thumb" src="https://madinaxontoxirjonovna.github.io/Figma-topshiriq-5/images/Rectangle.png" alt="">
+                        <div>
+                            <h3 class="project-card__title">Yes</h3>
+                            <p class="project-card__desc">Ko'zoynak sotuvchi online do'kon</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img class="project-card__bg" src="https://akcdn.detik.net.id/visual/2020/12/21/gunakan-moisturizer-saat-wajah-basahstocksycom_11.jpeg?w=480&q=90" alt="">
+                    <div class="project-card__content">
+                        <img class="project-card__thumb" src="https://cdn-front.freepik.com/home/anon-rvmp/professionals/img-film.webp?w=480" alt="">
+                        <div>
+                            <h3 class="project-card__title">Remmy</h3>
+                            <p class="project-card__desc">Teri parvarishi</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img class="project-card__bg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKsKGIYKgVfJP0DJFrC9Z90A9rLk6gLOUyG1p77tXveI-sXZEiXDKb9YSQnjLgT--MgJRRyIqX3sfVom8YZSv-7v0oU1I2It54-LPHnjY&s=10" alt="">
+                    <div class="project-card__content">
+                        <img class="project-card__thumb" src="https://about.fb.com/wp-content/uploads/2025/04/05_Devices_Carousel-02.jpg?fit=1920%2C1672" alt="">
+                        <div>
+                            <h3 class="project-card__title">Meta</h3>
+                            <p class="project-card__desc">Virtual olam platformasi</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img class="project-card__bg" src="https://madinaxontoxirjonovna.github.io/Figma-topshiriq-4/images/Rectangle%2094%20(1).png" alt="">
+                    <div class="project-card__content">
+                        <img class="project-card__thumb" src="./images/kreslo.jpg" alt="">
+                        <div>
+                            <h3 class="project-card__title">DudeShape</h3>
+                            <p class="project-card__desc">Zamonaviy mebellar</p>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="prev" class="btn btn_primary" aria-label="Prev"><i class="fa-solid fa-angle-left"></i></button>
+            <button id="next" class="btn btn_primary" aria-label="Next"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+
+        <div class="dots" id="dots"></div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <a href="#hero" class="logo">M<span>M</span></a>
+
+            <p class="footer-links">
+                <a href="#hero" class="footer-link">Bosh sahifa</a>
+                <a href="#projects" class="footer-link">Loyihalar</a>
+                <a href="#about" class="footer-link">Men haqimda</a>
+            </p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Toshkent shahar</span>Chilonzor tumani, Qozirabod MFY,<br>Qo'shchinor 1-uy</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+998 87 020 70 62</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:madinaxontoxirjonovna@gmail.com">madinaxontoxirjonovna@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>Men haqimda</span> Insonlarga manfaatli bo'ladigan dasturlar yaratish va O'zbekistoni butun dunyoga tanitish.
+            </p>
+
+            <div class="footer-icons">
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
